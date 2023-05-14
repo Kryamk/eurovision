@@ -1,0 +1,23 @@
+
+
+.wrap {
+	display: flex;
+	justify-content: space-around;
+}
+.countries {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px 0 10px;
+	margin-top: 20px;
+	background: rgba(206, 215, 223, 0.295);
+	width: 300px;
+	min-height: 30px;
+}
+.country {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	border: 1px solid cyan;
+	padding: 10px;
+}

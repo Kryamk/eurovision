@@ -1,0 +1,15 @@
+@import 'assets/style/var';
+*, *::before, *::after {
+	box-sizing: border-box
+}
+p,h3 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: linear-gradient(180deg, #aea4e3, #639c9f) no-repeat;
+	// background: url('favicon.ico');
+	color: rgb(255, 255, 255);
+	user-select: none;
+	min-height: 100Vh;
+}
